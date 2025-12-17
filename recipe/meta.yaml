@@ -28,11 +28,11 @@ requirements:
   host:
     - libgomp        # [linux]
     - llvm-openmp    # [osx]
-    - openmp ==5.0.0   # [win]
+    - llvm-openmp    # [win]
   run:
     - libgomp        # [linux]
     - llvm-openmp    # [osx]
-    - openmp ==5.0.0   # [win]
+    - llvm-openmp    # [win]
 
 test:
   commands:
